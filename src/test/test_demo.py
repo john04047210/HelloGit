@@ -9,10 +9,10 @@ import unittest
 
 class TestStringMethods(unittest.TestCase):
     def setUp(self):
-        print 'init by setUp...'
+        print('init by setUp...')
 
     def tearDown(self):
-        print 'end by tearDown...'
+        print('end by tearDown...')
 
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')

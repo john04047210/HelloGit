@@ -8,4 +8,4 @@ def add_tow_numbers(x, y):
     return x + y
 
 
-print add_tow_numbers(1, 2)
+print(add_tow_numbers(1, 2))
